@@ -4,6 +4,7 @@ if not status_ok then
 end
 
 local servers = {
+  "tailwindcss",
   "sumneko_lua",
   "cssls",
   "html",
