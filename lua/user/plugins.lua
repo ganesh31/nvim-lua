@@ -36,6 +36,10 @@ packer.init {
       return require("packer.util").float { border = "rounded" }
     end,
   },
+  profile = {
+    enable = true,
+    threshold = 0, -- integer in milliseconds, plugins which load faster than this won't be shown in profile output
+  },
 }
 
 
