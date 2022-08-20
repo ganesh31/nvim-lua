@@ -43,7 +43,7 @@ telescope.setup {
 
 telescope.load_extension("file_browser")
 
-vim.keymap.set('n', '<Leader>f', function()
+vim.keymap.set('n', 'ff', function()
   builtin.find_files({
     hidden = true
   })
